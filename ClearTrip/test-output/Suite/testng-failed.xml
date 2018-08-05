@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="SuiteType" value="Sanity"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="ClearTripDemo(failed)">
+    <classes>
+      <class name="runningScipts.ClearTripDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ClearTrip_ScenarioOne"/>
+          <include name="setup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- runningScipts.ClearTripDemo -->
+    </classes>
+  </test> <!-- ClearTripDemo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

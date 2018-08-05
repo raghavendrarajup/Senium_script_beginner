@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ <parameter name="browserType" value="chrome"/>
+<parameter name="SuiteType" value="Demo"/>
+  
+  <test name="ClearTripDemo">
+   <classes>
+      <class name="runningScipts.ClearTripDemo"/>
+       <methods>
+<!-- Login Script -->
+        <include name="ClearTrip_ScenarioOne"/>  
+        
+       </methods>    
+	</classes>
+   </test>  <!-- Test --> 
+</suite> <!-- Suite --> 
